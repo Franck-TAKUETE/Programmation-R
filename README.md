@@ -13,22 +13,22 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
 
 **Installation de R sur Windows :**
 
-1. Téléchargement de R : Allez sur [le site officiel de R](https://cran.r-project.org/mirrors.html), Choisissez un miroir près de votre emplacement géographique, puis téléchargez la version la plus récente de R pour Windows.
+1. Téléchargemer R : Allez sur [le site officiel de R](https://cran.r-project.org/mirrors.html), Choisissez un miroir près de votre emplacement géographique, puis téléchargez la version la plus récente de R pour Windows.
 
 2. Installation de R : Exécutez le fichier d'installation téléchargé. Suivez les instructions du programme d'installation en laissant les options par défaut à moins que vous ne souhaitiez personnaliser certains paramètres.
 
-3. Téléchargement et installation de RTools (pour certains packages) : Pour certains packages, vous pourriez avoir besoin de [RTools](https://cran.r-project.org/bin/windows/Rtools/). Suivez les instructions d'installation.
+3. Télécharger et installation de RTools (pour certains packages) : Pour certains packages, vous pourriez avoir besoin de [RTools](https://cran.r-project.org/bin/windows/Rtools/). Suivez les instructions d'installation.
 
-4. Téléchargement et installation de RStudio : Exécutez le fichier d'installation téléchargé. Suivez les instructions du programme d'installation en laissant les options par défaut à moins que vous ne souhaitiez personnaliser certains paramètres.
+4. Télécharger et installation de RStudio : Exécutez le fichier d'installation téléchargé. Suivez les instructions du programme d'installation en laissant les options par défaut à moins que vous ne souhaitiez personnaliser certains paramètres.
 
 
 **Installation de R sur Mac :**
 
-1. Téléchargement de R : Allez sur [le site officiel de R](https://cran.r-project.org/mirrors.html), choisissez un miroir proche, puis téléchargez la version la plus récente de R pour macOS.
+1. Télécharger de R : Allez sur [le site officiel de R](https://cran.r-project.org/mirrors.html), choisissez un miroir proche, puis téléchargez la version la plus récente de R pour macOS.
 
-2. Installation de R : Exécutez le fichier d'installation téléchargé. Suivez les instructions du programme d'installation en laissant les options par défaut à moins que vous ne souhaitiez personnaliser certains paramètres.
+2. Installer R : Exécutez le fichier d'installation téléchargé. Suivez les instructions du programme d'installation en laissant les options par défaut à moins que vous ne souhaitiez personnaliser certains paramètres.
 
-3. Téléchargement et installation de RStudio : Exécutez le fichier d'installation téléchargé. Suivez les instructions du programme d'installation en laissant les options par défaut à moins que vous ne souhaitiez personnaliser certains paramètres.
+3. Télécharger et installation de RStudio : Exécutez le fichier d'installation téléchargé. Suivez les instructions du programme d'installation en laissant les options par défaut à moins que vous ne souhaitiez personnaliser certains paramètres.
 
 ## Objectif
 L'objectif de ce script est de déterminer toutes les combinaisons possibles pour placer plusieurs dames sur un échiquier de manière à ce qu'elles ne menacent pas mutuellement.
