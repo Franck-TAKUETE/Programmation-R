@@ -21,7 +21,8 @@ TrouverSolutions <- function(x, y) {
   
   PlacerDames <- function(placement, colonne = 1) {
     if (colonne > x) {
-      solutions <- c(solutions, list(placement - 1))  # Ajouter la solution trouvée de la liste
+      solutions <<- c(solutions, list(placement - 1))  # Ajouter la solution trouvée de la liste
+      print(placement - 1)
     } else {
       ligne <- 1
       while (ligne <= y) {  # Utiliser y pour le nombre de colonnes
@@ -41,6 +42,10 @@ TrouverSolutions <- function(x, y) {
   return(solutions)  # Retourner la liste complète des solutions
 }
 
+# Utiliser la fonction avec le nombre de lignes/colonnes de votre choix
+x <- 10 #...ici...
+y <- 10 #...ici...
+
 nombreDeSolutions = TrouverSolutions(10,10) #...ici...
 nombreDeSolutions
 
@@ -48,9 +53,7 @@ nombreDeSolutions
 # Charger le package tidyverse (ggplot2)
 library(tidyverse)
 
-# Utiliser la fonction avec le nombre de lignes/colonnes de votre choix
-x <- -1 #...ici...
-y <- -1 #...ici...
+
 solutions <- TrouverSolutions(x, y)
 
 # Créer un dataframe contenant les solutions
