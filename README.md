@@ -85,7 +85,6 @@ TrouverSolutions <- function(x, y) {
 
 TrouverSolutions(10,10) #...ici...
 
-
 # Charger le package tidyverse (ggplot2)
 library(tidyverse)
 
@@ -125,7 +124,7 @@ ggplot(data = df_HeatmapData, aes(x = Colonne, y = Ligne, fill = Freq)) + geom_t
 1. Lancer R Studio
 2. Créer un nouveau fichier 
 3. Copier/Coller le code sur le fichier 
-4. Donner une valeur à x et à y dans pour tester tester les solutions suivant la taille de l'échiquier qui vous convient e.g: TrouverSolutions(10,10) pour une grille de 10 fois 10 
+4. Donner une valeur à x et à y  pour tester les solutions suivant la taille de l'échiquier qui vous convient e.g: TrouverSolutions(10,10) pour une grille de 10 fois 10 
 ```R
 TrouverSolutions(10,10) #...ici...
 
@@ -138,12 +137,9 @@ x <- 10 #...ici...
 y <- 10 #...ici...
 ```
 5. En haut à droite de la page, cliquez sur 'Run' pour déboguer le programme
-Expliquez comment exécuter votre script en R pour tester le positionnement des dames.
 
 ## Résultats
 Résultat de l'exécution pour une grille de 10 fois 10
-
-
 
 ...
 
