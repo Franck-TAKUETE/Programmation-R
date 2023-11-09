@@ -1,6 +1,6 @@
 TrouverSolutions <- function(x, y) {
   
-  if(x<0 || y<0){
+  if(x <= 0 || y <= 0){
     stop("Entrez des valeurs positives")
   }
   solutions <- list()  # Créer une liste vide pour stocker les solutions
@@ -21,7 +21,7 @@ TrouverSolutions <- function(x, y) {
   
   PlacerDames <- function(placement, colonne = 1) {
     if (colonne > x) {
-      solutions <<- c(solutions, list(placement - 1))  # Ajouter la solution trouvée de la liste
+      solutions <- c(solutions, list(placement - 1))  # Ajouter la solution trouvée de la liste
     } else {
       ligne <- 1
       while (ligne <= y) {  # Utiliser y pour le nombre de colonnes
@@ -41,7 +41,9 @@ TrouverSolutions <- function(x, y) {
   return(solutions)  # Retourner la liste complète des solutions
 }
 
-TrouverSolutions(-1,-1) #...ici...
+nombreDeSolutions = TrouverSolutions(10,10) #...ici...
+nombreDeSolutions
+
 
 # Charger le package tidyverse (ggplot2)
 library(tidyverse)
